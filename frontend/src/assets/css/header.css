@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem 0.5rem 2.5rem !important;
+}
+
+.logo{
+    width: 9rem;
+}
+
+.menu-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.menu-svg{
+    display: none;
+}
+
+@media (max-width: 890px){
+    .logo{
+        width: 5rem;
+    }
+    .menu-nav p{
+        display: none;
+        
+    }
+    .menu-svg{
+        display: block;
+        width: 1.5rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+    .menu-option{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 3rem;
+    }
+}
